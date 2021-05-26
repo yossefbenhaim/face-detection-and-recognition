@@ -1,14 +1,14 @@
-﻿using Emgu.CV;
-using Emgu.CV.Structure;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FaceDetectionAndRecognition
 {
-    class FaceData
+    class User
     {
         public string TZ { get; set; }
         public string PersonName { get; set; }
-        public Image<Gray, byte> FaceImage { get; set; }
-      
     }
 }
